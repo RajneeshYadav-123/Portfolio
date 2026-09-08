@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rajneesh Yadav - Portfolio
 
-## Getting Started
+A premium, modern, and responsive developer portfolio built for Rajneesh Yadav, Full Stack Developer and GenAI Enthusiast.
 
-First, run the development server:
+## Tech Stack
+- **Framework:** Next.js (App Router)
+- **Library:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React & React Icons
 
+## Features
+- Fully responsive design (Mobile, Tablet, Desktop)
+- Modern glassmorphism UI with subtle glowing effects and animations
+- Centralized data configuration for easy content management
+- Fast and optimized production build
+
+## Local Setup
+
+1. **Clone or Download the Repository:**
+   Navigate to the project root directory.
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Variables:**
+   Copy the `.env.example` file to `.env.local` and add your social links:
+   ```bash
+   cp .env.example .env.local
+   ```
+   *Replace the placeholders in `.env.local` with your actual URLs.*
+
+4. **Add Personal Assets:**
+   - **Profile Image:** Place your profile picture at `public/rajneesh.jpeg`. It will automatically appear in the hero section with a glowing ring.
+   - **Resume PDF:** Place your resume PDF at `public/Resume_Rajneesh_Yadav.pdf`. This will be available for download from the Hero section.
+
+5. **Run the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## How to Edit Content
+All the personal information, projects, skills, and experience details are centralized in one file.
+To update any information, edit `src/data/portfolio.ts`.
+
+## How to Build for Production
+To test the production build locally, run:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Vercel Deployment
+This project is fully Vercel-compatible out of the box.
+1. Push this repository to GitHub.
+2. Log in to Vercel and import the repository.
+3. Add the Environment Variables (from `.env.local`) in the Vercel dashboard during setup.
+4. Click **Deploy**. Vercel will automatically detect Next.js and build the site.
