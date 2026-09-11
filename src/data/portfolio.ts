@@ -25,20 +25,40 @@ export const portfolioData = {
     { label: "LeetCode Rating", value: 1700, suffix: "+" }
   ],
   experience: [
-    {
-      company: "AvQuint Innovations Pvt. Ltd.",
-      position: "Full Stack Developer Intern",
-      period: "June 2026 \u2013 August 2026",
-      location: "Remote",
-      achievements: [
-        "Developed 8+ responsive frontend features for FlexTenure Consumer.",
-        "Connected 5+ application workflows with backend services and MySQL.",
-        "Resolved 15+ frontend-backend integration bugs.",
-        "Worked with UI components, backend APIs and transaction workflows."
-      ],
-      technologies: ["React", "Node.js", "MySQL", "REST APIs"]
-    }
-  ],
+  {
+    company: "AvQuint Innovations Pvt. Ltd.",
+    position: "Full Stack Developer Intern",
+    period: "June 2026 – August 2026",
+    location: "Remote",
+    achievements: [
+      "Developed 8+ responsive frontend features for FlexTenure Consumer.",
+      "Connected 5+ application workflows with backend services and MySQL.",
+      "Resolved 15+ frontend-backend integration bugs.",
+      "Worked with UI components, backend APIs and transaction workflows."
+    ],
+    technologies: ["React", "Node.js", "MySQL", "REST APIs"]
+  },
+  {
+    company: "Uttar Pradesh Metro Rail Corporation (UPMRC) – Lucknow Metro",
+    position: "Signal & Telecommunication, Automatic Fare Collection (AFC) Intern",
+    period: "June 2026 – July 2026",
+    location: "Lucknow",
+    achievements: [
+      "Gained hands-on exposure to communication and data transmission systems supporting metro signaling and operational workflows.",
+      "Assisted in the installation, testing, and maintenance of Optical Fiber Communication (OFC) networks for reliable system-to-system data transmission.",
+      "Analyzed communication workflows and system components to understand data flow, connectivity, and fault identification in large-scale infrastructure.",
+      "Worked with the Signal & Telecommunication team on system testing, troubleshooting, and reliability-focused technical operations.",
+      "Developed practical understanding of real-time, safety-critical systems and the importance of reliable communication infrastructure."
+    ],
+    technologies: [
+      "Optical Fiber Communication",
+      "Signal & Telecommunication Systems",
+      "Automatic Fare Collection",
+      "System Testing",
+      "Network Troubleshooting"
+    ]
+  }
+],
   projects: [
     {
       title: "Inspectra",
