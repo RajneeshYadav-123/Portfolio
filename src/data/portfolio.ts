@@ -45,16 +45,12 @@ export const portfolioData = {
     location: "Lucknow",
     achievements: [
       "Gained hands-on exposure to communication and data transmission systems supporting metro signaling and operational workflows.",
-      "Assisted in the installation, testing, and maintenance of Optical Fiber Communication (OFC) networks for reliable system-to-system data transmission.",
-      "Analyzed communication workflows and system components to understand data flow, connectivity, and fault identification in large-scale infrastructure.",
       "Worked with the Signal & Telecommunication team on system testing, troubleshooting, and reliability-focused technical operations.",
       "Developed practical understanding of real-time, safety-critical systems and the importance of reliable communication infrastructure."
     ],
     technologies: [
       "Optical Fiber Communication",
       "Signal & Telecommunication Systems",
-      "Automatic Fare Collection",
-      "System Testing",
       "Network Troubleshooting"
     ]
   }
