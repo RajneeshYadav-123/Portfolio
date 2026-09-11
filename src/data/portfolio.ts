@@ -41,18 +41,18 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Zentroverse",
+      title: "Inspectra",
       subtitle: "Independent Vehicle Inspection Certification Platform",
       period: "Jan 2026 \u2013 Feb 2026",
-      tech: ["React", "Node.js", "AWS S3", "Tailwind CSS", "Firebase", "WhatsApp API"],
+      tech: ["React", "Node.js", "Tailwind CSS", "Firebase", "WhatsApp API"],
       achievements: [
         "Architected a scalable full-stack vehicle inspection platform enabling booking, inspection, and certification workflows.",
         "Built a real-time inspector system with GPS tracking, and media uploads, ensuring complete inspection traceability.",
         "Designed a rule-based scoring and certification engine with QR-based reports, reducing manual processing effort by approximately 60%.",
         "Integrated Razorpay and WhatsApp APIs for secure payments, automated notifications, and instant inspection report delivery."
       ],
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/RajneeshYadav-123/Inspectra",
+      liveLink: "https://inspectra-enmj.vercel.app/"
     },
     {
       title: "StudyKaro",
@@ -97,7 +97,7 @@ export const portfolioData = {
         "Integrates Groq, Tavily and Gemini APIs."
       ],
       githubLink: "https://github.com/RajneeshYadav-123/Agentic-Blog-Generator",
-      liveLink: "#"
+      liveLink: "https://agentic-blog-generator-ai.streamlit.app/"
     }
   ],
   skills: [
