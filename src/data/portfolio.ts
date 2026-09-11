@@ -159,7 +159,7 @@ export const portfolioData = {
   ],
   education: [
     {
-      institution: "Madan Mohan Malaviya University of Technology",
+      institution: "Madan Mohan Malaviya University of Technology Gorakhpur Uttar Pradesh",
       degree: "Bachelor of Technology",
       major: "Electronics and Communication Engineering",
       period: "2023 \u2013 2027",
